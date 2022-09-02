@@ -1,7 +1,7 @@
 # Computer-Tech-Tools
 Simple python program for keeping track of what programs have been ran.
 
-Depending on the usb drive letter, run the program assigned to that drive.
+Uses PIP PILLOW!
 
 NOTE:
 You need to set the paths for each of your antivirus, and/or smart data reader.
