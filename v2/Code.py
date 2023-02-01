@@ -192,7 +192,7 @@ class MainWindow(QMainWindow):
     def open_program2(self):
         color2 = "background-color: red;"
         self.db["color2"] = color2
-        self.button1.setStyleSheet(color2)
+        self.button2.setStyleSheet(color2)
         program_name2 = self.db["program_name2"]
         subprocess.Popen([program_name2])
         self.button2.setStyleSheet("background-color: red;")
@@ -200,7 +200,7 @@ class MainWindow(QMainWindow):
     def open_program3(self):
         color3 = "background-color: red;"
         self.db["color3"] = color3
-        self.button1.setStyleSheet(color3)
+        self.button3.setStyleSheet(color3)
         program_name3 = self.db["program_name3"]
         subprocess.Popen([program_name3])
         self.button3.setStyleSheet("background-color: red;")
@@ -208,7 +208,7 @@ class MainWindow(QMainWindow):
     def open_program4(self):
         color4 = "background-color: red;"
         self.db["color4"] = color4
-        self.button1.setStyleSheet(color4)
+        self.button4.setStyleSheet(color4)
         program_name4 = self.db["program_name4"]
         subprocess.Popen([program_name4])
         self.button4.setStyleSheet("background-color: red;")
@@ -216,7 +216,7 @@ class MainWindow(QMainWindow):
     def open_program5(self):
         color5 = "background-color: red;"
         self.db["color5"] = color5
-        self.button1.setStyleSheet(color5)
+        self.button5.setStyleSheet(color5)
         program_name5 = self.db["program_name5"]
         subprocess.Popen([program_name5], shell=True)
         self.button5.setStyleSheet("background-color: red;")
@@ -224,7 +224,7 @@ class MainWindow(QMainWindow):
     def open_program6(self):
         color6 = "background-color: red;"
         self.db["color6"] = color6
-        self.button1.setStyleSheet(color6)
+        self.button6.setStyleSheet(color6)
         program_name6 = self.db["program_name6"]
         subprocess.Popen([program_name6])
         self.button6.setStyleSheet("background-color: red;")
@@ -232,7 +232,7 @@ class MainWindow(QMainWindow):
     def open_program7(self):
         color7 = "background-color: red;"
         self.db["color7"] = color7
-        self.button1.setStyleSheet(color7)
+        self.button7.setStyleSheet(color7)
         program_name7 = self.db["program_name7"]
         subprocess.Popen([program_name7])
         self.button7.setStyleSheet("background-color: red;")
@@ -240,10 +240,10 @@ class MainWindow(QMainWindow):
     def open_program8(self):
         color8 = "background-color: red;"
         self.db["color8"] = color8
-        self.button1.setStyleSheet(color8)
-        self.button8.setStyleSheet("background-color: red;")
+        self.button8.setStyleSheet(color8)
         program_name8 = self.db["program_name8"]
         subprocess.Popen([program_name8])
+        self.button8.setStyleSheet("background-color: red;")
         
     def open_config(self):
         name_change_window.show()
